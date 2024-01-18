@@ -33,5 +33,18 @@ public class SimpleQuiz {
                 }else{
                         System.out.println("Incorrect");
                 }
+
+		//Question 3
+                System.out.println("Who painted the Sistine Chapel?");
+                System.out.println("A. Michelangelo       B. Raphael");
+                System.out.println("C. Leonardo           D. Donatello");
+
+                String answer3 = in.nextLine();
+                if (answer3.toUpperCase().equals("A")) {
+                        score++;
+                        System.out.println("Correct!");
+                } else {
+                        System.out.println("Incorrect");
+                }
 	}
 }
