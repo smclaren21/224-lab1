@@ -14,6 +14,11 @@ public class SimpleQuiz {
 		System.out.println("C. New Zealand	D. Russia");
 		
 		char answer1 = in.nextChar();
-		if (answer1 == 'B' || answer1 == 'b') score++;
+		if (answer1 == 'B' || answer1 == 'b') {
+			score++;
+			System.out.println("Correct!");
+		} else {
+			System.out.println("Incorrect");
+		}
 	}
 }
