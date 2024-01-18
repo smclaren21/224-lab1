@@ -58,5 +58,28 @@ public class SimpleQuiz {
                 }else{
                         System.out.println("Incorrect");
                 }
+
+		//Question 5
+                System.out.println("In a hypothetical universe, the speed of light is only half of its value in our universe (c/2).\n"
+                		+ "An observer in this universe measures the speed of light while standing on a moving spaceship.\n"
+                		+ "According to the theory of relativity, which of the following statements is true??");
+                System.out.println("A. The measured speed of light on the spaceship will be equal to c/2, regardless of the spaceship's velocity                     B. The measured speed of light on the spaceship will always be greater than c/2, regardless of the spaceship's velocity");
+                System.out.println("C. The measured speed of light on the spaceship will depend on the velocity of the spaceship and will be less than c/2           D. The measured speed of light on the spaceship will always be equal to c, regardless of the spaceship's velocity");
+
+                String answer5 = in.nextLine();
+                if (answer5.toUpperCase().equals("C")) {
+                        score++;
+                        System.out.println("Correct!");
+                } else {
+                        System.out.println("Incorrect");
+                }
+                
+                if (score >= 4) {
+                	System.out.println("Great job" + name + "! You scored " + score + "/5!");
+                } else if (score == 3) {
+                	System.out.println("Good job " + name + "! You scored " + score + "/5");
+                } else {
+                	System.out.println("Nice try " + name + ", but you only scored " + score + "/5 :(");
+                }
 	}
 }
