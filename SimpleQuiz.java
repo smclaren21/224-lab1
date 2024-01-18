@@ -75,7 +75,7 @@ public class SimpleQuiz {
                 }
                 
                 if (score >= 4) {
-                	System.out.println("Great job" + name + "! You scored " + score + "/5!");
+                	System.out.println("Great job " + name + "! You scored " + score + "/5!");
                 } else if (score == 3) {
                 	System.out.println("Good job " + name + "! You scored " + score + "/5");
                 } else {
