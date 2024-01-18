@@ -20,5 +20,18 @@ public class SimpleQuiz {
 		} else {
 			System.out.println("Incorrect");
 		}
+
+
+		//question2
+                System.out.println("What is the correct term for a group of crows?");
+                System.out.println("A. a killing         B. a party");
+                System.out.println("C. a murder          D. a flock");
+                String answer2 = in.nextLine();
+                if(answer2.toUpperCase().equals("C")) {
+                        System.out.println("Correct!");
+                        score++;
+                }else{
+                        System.out.println("Incorrect");
+                }
 	}
 }
