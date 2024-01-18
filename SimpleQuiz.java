@@ -46,5 +46,17 @@ public class SimpleQuiz {
                 } else {
                         System.out.println("Incorrect");
                 }
+
+		//question4
+                System.out.println("Which of these countries' prime minister shit themself in a McDonalds?");
+                System.out.println("A. Belgium            B. Canada");
+                System.out.println("C. United Kingdom     D. Australia");
+                String answer4 = in.nextLine();
+                if(answer4.toUpperCase().equals("D")) {
+                        System.out.println("Correct!");
+                        score++;
+                }else{
+                        System.out.println("Incorrect");
+                }
 	}
 }
