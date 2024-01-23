@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class SimpleQuiz {
 	public static void main(String[] args) {
+		//this is a change
 		Scanner in = new Scanner(System.in);
 		int score = 0;
 
