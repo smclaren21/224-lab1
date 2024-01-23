@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SimpleQuiz {
 	public static void main(String[] args) {
 		//this is a change
+		//Another change for Sam to review. Is this a good change Sam?
 		Scanner in = new Scanner(System.in);
 		int score = 0;
 
